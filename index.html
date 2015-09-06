@@ -7,6 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="Styles/main.css">
      <title>Siddharth's Home Page</title>
+     <script type="text/javascript" src="Controller/IndexController.js"></script>
   </head>
 
 
@@ -26,16 +27,14 @@
   <div id='cssmenu' >
 
   <ul>
-     <li class='active'><a href='#'><span><font size = "2" color = "DarkOrange">Products</font></span></a></li>
-     <li><a href='#'><span><font size = "2" color = "DarkOrange">Product</font></span></a></li>
+     <li class='active'><a href="javascript:; " onclick="LoadPages('projects'); return true;"><span><font size = "2" color = "DarkOrange">Products</font></span></a></li>
+     <li><a href="javascript:; " onclick="LoadPages('resume'); return true;"><span><font size = "2" color = "DarkOrange">Product</font></span></a></li>
      <li><a href='#'><span><font size = "2" color = "DarkOrange">Products</font></span></a></li>
      <li class='last'><a href='#'><span><font size = "2" color = "DarkOrange">Products</font></span></a></li>
   </ul>
 
 </div>
-<center><iframe src="/Pages/projects.html" width = "900" height = "1200"></iframe></center>
-<center><embed src="/srajguru_resume_Jul2015_ee_soft1.pdf" width = "900" height = "1200"></embed></center>
-
+<center><iframe src="/Pages/Intro.html" id="IndexFrame" width = "900" height = "1200"></iframe></center>
 <div id="Footer">
   <h5>To contact me please refer to my email address or visit my Linkedin profile</h5>
 </div>
