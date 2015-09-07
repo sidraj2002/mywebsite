@@ -1,13 +1,13 @@
 #header {
-    background-color:Grey;
-    color:#00003D;
-    text-align:center;
-    padding:5px;
+    background-color: linear-gradient(0deg, #feccb1, #f17432 61%, #ea5507 69%); #url("/Styles/backgroundBar.jpg");
+    color:#E6E600;
+    text-align:left;
+    padding:0;
 }
 #cssmenu {
   text-align: center;
   border-radius: 25px;
-  background: Orange;
+  background: Blue;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -18,10 +18,10 @@
   display: inline-block;
   border-radius: 25px;
   font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 0%;
   list-style: none;
-  background: Orange;
+  background: DarkOrange  ;
 }
 #cssmenu a {
   background: #333;
@@ -29,9 +29,27 @@
   color: #ccc;
   display: block;
   margin: 0;
-  padding: 8px 12px;
+  padding: 10px 18px;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 500;
+}
+#cssmenu lo {
+  display: inline-block;
+  border-radius: 25px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: inherit;
+  padding: 0% 0% 0% 20%;
+  list-style: none;
+  background: Grey  ;
+}
+#cssmenu lp {
+  display: inline-block;
+  border-radius: 25px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: inherit;
+  padding: 0% 20% 0% 0%;
+  list-style: none;
+  background: Grey  ;
 }
 #cssmenu a:hover {
   border-radius: 25px;
@@ -40,25 +58,27 @@
   padding-bottom: 8px;
 }
 #top, #bottom, #left, #right {
-	background: DarkOrange;
+	background: #FF3300;
 	position: fixed;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 15px;
+		width: 5px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
 
 	#top, #bottom {
 		left: 0; right: 0;
-		height: 15px;
+		height: 5px;
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
 #Footer {
-    background-color:Grey;
+    background-image:url("/Styles/backgroundBarFooter.jpg");
     color:#00003D;
     text-align:center;
     padding:5px;
+    position: fixed;
+    bottom: 0px;
 }
