@@ -8,9 +8,9 @@
   text-align: center;
   border-radius: 25px;
   background: Blue;
-  list-style: none;
+  list-style:none;
   margin: 0;
-  padding: 0;
+  padding: 0%;
   width: 12em;
   display: inline;
 }
@@ -38,18 +38,18 @@
   border-radius: 25px;
   font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
   margin: inherit;
-  padding: 0% 0% 0% 20%;
+  padding: 0% 0% 0% 35%;
   list-style: none;
-  background: Grey  ;
+  background: DarkOrange  ;
 }
 #cssmenu lp {
   display: inline-block;
   border-radius: 25px;
   font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
   margin: inherit;
-  padding: 0% 20% 0% 0%;
+  padding: 0% 35% 0% 0%;
   list-style: none;
-  background: Grey  ;
+  background: DarkOrange  ;
 }
 #cssmenu a:hover {
   border-radius: 25px;
@@ -58,7 +58,7 @@
   padding-bottom: 8px;
 }
 #top, #bottom, #left, #right {
-	background: #FF3300;
+	background: DarkOrange;
 	position: fixed;
 	}
 	#left, #right {
@@ -81,4 +81,26 @@
     padding:5px;
     position: fixed;
     bottom: 0px;
+}
+#post-container {
+    margin: 50px 20px 0 0;
+    border: 10px solid #333;
+    overflow: auto
+}
+#post-thumb img {
+    display: flex;
+    float: right;
+}
+#post-content {
+    margin-left: 210px
+    float:right;
+}
+#post-title {
+  font-weight: normal;
+  font-size: 200%;
+  color: DarkOrange;
+  float: right;
+}
+#paragraph{
+  font-family: cursive;
 }
