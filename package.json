@@ -1,0 +1,30 @@
+{
+  "name": "myWebsite",
+  "version": "1.0.0",
+  "description": "Porfolio Website for Sid",
+  "main": "server.js",
+  "dependencies": {
+    "jshint": "^2.8.0",
+    "connect": "^3.4.0",
+    "express": "^4.13.3",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"test\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidraj2002/mywebsite.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "srajguru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidraj2002/mywebsite/issues"
+  },
+  "homepage": "https://github.com/sidraj2002/mywebsite"
+}
