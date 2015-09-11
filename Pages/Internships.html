@@ -17,6 +17,7 @@
     <link href="styles/full-slider.css" rel="stylesheet">
 
 
+
 </head>
 
 <body>
@@ -32,29 +33,40 @@
         </ol>
 
         <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="background-image:url('backgroundImg6.jpg')">
             <div class="item active">
+
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:none transparent;">
+                  <div >
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Hardware Project</h3>
+                      <p style="font-family:sans-serif; font-size:90%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange;">This is a twitter bootstrap carousel that only uses text. There are no images in the carousel slides.</p>
+                  </div>
+
+                </div>
+
+
+                <div class="carousel-caption" style="padding: 0% 0% 3% 0 ">
                     <h2>Caption 1</h2>
                 </div>
+
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="fill" style="background-image:none transparent;"></div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="fill" style="background-image:none transparent;"></div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
+
 
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -92,7 +104,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 10000 //changes the speed
     })
     </script>
 
