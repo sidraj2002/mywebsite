@@ -8,31 +8,38 @@
      <link rel="stylesheet" href="/Styles/main.css">
 
      <link href="/Styles/bootstrap.css" rel="stylesheet">
-     <title>Siddharth's Home Page</title>
+
+     <title>Sid's Home Page</title>
      <script type="text/javascript" src="Controller/IndexController.js"></script>
   </head>
 
 
-<body style=" background:url(/Styles/backgroundImg3.jpg) no-repeat center center fixed;">
+<body style=" background:url(/Styles/backgroundImg6.jpg) no-repeat center center fixed;">
 
 
-  <nav style="background-color:Black; "class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav style="background-color:#4C4C4C; "class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
     <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
       <a class="navbar-brand" href="#">SID</a>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul style="background-color:Black; float:center;" class="nav navbar-nav">
+                <ul  class="nav navbar-nav">
                     <li>
-                        <a href="javascript:; " onclick="LoadPages('home'); scrollWin(); "><font size = "4">About</font></a>
+                        <a href="javascript:; " onclick="LoadPages('projects'); scrollWin(); "><font size = "4">Projects</font></a>
                     </li>
                     <li>
-                        <a href="javascript:; " onclick="LoadPages('projects'); scrollWin(); "><font size = "4">About</font></a>
+                        <a href="javascript:; " onclick="LoadPages('internships'); scrollWin(); "><font size = "4">Interships</font></a>
                     </li>
-                    <li>
-                        <a href="#"><font size = "4">About</font></a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -41,32 +48,35 @@
 
   </nav>
 
+
+
   <div id="left"></div>
   <div id="right"></div>
   <div id="top"></div>
   <div id="bottom"></div>
 
   <div id="header">
-  <h1><left><font size = "8"color="Grey">//*Sid's Website*//</font></left></h1>
-
+  <h1><left><font size = "8"color="Grey">//*<font size="8"color="DarkOrange">Sid's</font> Website<font size="8"color="#66FF33">*</font>//</font></left></h1>
+<hr>
   </div>
 
-  <hr color = "Black" size="10">
 
 
+  <div style = "float:top; border-radius: 50px; overflow: hidden;border-top: Grey 3px solid;
+    border-right: Grey 3px solid;
+    border-left: Grey 5px solid;
+                                  ">
+  <iframe src="/Pages/Home.html" id="IndexFrame1" width = "100%" height = "320"></iframe>
+  </div>
+<hr>
 
-<div style = "float:right; border-radius: 25px; overflow: hidden; border-top: Grey 5px solid;
-  border-right: Grey 5px solid;
-  border-left: Grey 5px solid;
-  border-bottom: Grey 5px solid;">
+<div style = "float: border-radius: 25px; overflow: hidden; border-top: Grey 5px solid;
+  border-right: Grey 8px solid;
+  border-left: Grey 8px solid;
+  border-bottom: Grey 8px solid;">
 
-<iframe src="/Pages/intro.html" id="IndexFrame" width = "850" height = "1000" frameborder="0"></iframe>
+<iframe style="background:none transparent;"src="/Pages/intro.html" id="IndexFrame" width = "100%" height = "1000" ></iframe>
 </div>
-<div style = "float:left; border-radius: 25px; overflow: hidden;border-top: Grey 3px solid;
-  border-right: Grey 3px solid;
-  border-left: Grey 5px solid;
-  border-bottom: Grey 3px solid;">
-<iframe src="/Pages/Home.html" id="IndexFrame1" width = "500" height = "1000"></iframe>
 
 
 </body>
