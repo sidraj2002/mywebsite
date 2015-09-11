@@ -2,7 +2,7 @@
     background-color: linear-gradient(0deg, #feccb1, #f17432 61%, #ea5507 69%); #url("/Styles/backgroundBar.jpg");
     color:#E6E600;
     text-align:left;
-    padding:20% 0 0 20%;
+    padding:25% 0 25% 33%;
 }
 #cssmenu {
   text-align: center;
@@ -58,7 +58,7 @@
   padding-bottom: 8px;
 }
 #top, #bottom, #left, #right {
-	background: DarkOrange;
+	background: #99FF33;;
 	position: fixed;
 	}
 	#left, #right {
@@ -90,10 +90,12 @@
 #post-thumb img {
     display: flex;
     float: right;
+
 }
 #post-content {
     margin-left: 210px
     float:right;
+    padding 10% 0 0 0 ;
 }
 #post-title {
   font-weight: normal;

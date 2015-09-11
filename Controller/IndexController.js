@@ -18,3 +18,6 @@ if(name == "contact"){
 
 return true;
 }
+function scrollWin() {
+    window.scrollTo(0, 750);
+}
