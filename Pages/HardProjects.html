@@ -29,7 +29,7 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+
         </ol>
 
         <!-- Wrapper for Slides -->
@@ -44,14 +44,14 @@
                       <li> Used a BFP740 low noise SOT343 transistor and custom etched PCB</li>
                       <li> Designed the circuit and PCB layout using AWR Microwave suite</li>
                       <li> The amplifer layout was etched onto a PCB using toner transfer and performed with a -2dbm loss as compared to the theoretical value</li>
-                      <li> Key Technolgies used: Analog design, Smith Chart based calculations for reactivity and impedence matching and practical testing on a precision Microwave tester by National Instruments</li>
+                      <li> <font color="#66FF33">Key Technolgies used:</font> Analog design, Smith Chart based calculations for reactivity and impedence matching and practical testing on a precision Microwave tester by National Instruments</li>
                     </div>
                       <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Functionality Tester</h3>
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
                         <li> Used an ARM Sitara based development board (Beaglebone Black) and a Spartan3E based FPGA</li>
                         <li> Designed a functionality tester for simple logic gate ICs with a 2-bit input</li>
                         <li> The FPGA was used as the moldable test implementation fabric and the BeagleBone used as a Command-line interface tool to execute high level code</li>
-                        <li> Key Technolgies used: C++ scripts on Angstrom Dist. (Linux) using VI and Verilog HDL on Xilinx ISE Design Tools</li>
+                        <li> <font color="#66FF33">Key Technolgies used:</font> C++ scripts on Angstrom Dist. (Linux) using VI and Verilog HDL on Xilinx ISE Design Tools</li>
                       </div>
                       <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Behavioral Modeling 32-bit RISC</h3>
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
@@ -59,13 +59,14 @@
                         <li> Designed and tested on ModelSim test stand (Built on non-synthesizing code)</li>
                         <li> Core modules created included a 32-bit x 32-bit memory cell and a 32-bit piplined ALU</li>
                         <li> The functionality was tested using a 32-bit Multipilcation operation using the add-and-shift method</li>
+                        <li> <font color="#66FF33">Key Technolgies used:</font> Verlig HDL, Xilinx Spartan6 Emulation </li>
                       </div>
                       <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Servo Controlled Test Rig</h3>
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
                         <li> Used an MSP430 Launchpad Microcontroller and a servo motor</li>
                         <li> Designed and tested a rig to create customized motion for testing a wearable accelerometer based IoT device</li>
                         <li> The microcontroller board was used to vary the PWM signal to the servo motor</li>
-                        <li> Key Technolgies used: C++ scripts on Code Composer Studio</li>
+                        <li> <font color="#66FF33">Key Technolgies used:</font> C++ scripts on Code Composer Studio</li>
                       </div>
                   </div>
 
@@ -79,18 +80,37 @@
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:none transparent;"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                <div class="fill" style="background-image:none transparent;">
+                  <div >
+                    <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Automated testing of logic gates</h3>
+                    <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
+                      <li> Used discrete logic gate IC's as DUTs, Keithley programmable multimeter and National Instruments PXi platform ATE</li>
+                      <li> Designed the logic for functionality tests, VIH, VOL, leakage current and continuity</li>
+                      <li> The ICs were tested at N=1000 on the ATE for different tests and results compared on bench testing equipment like the Keithley multimeter and an Agilent oscilloscope</li>
+                      <li> <font color="#66FF33">Key Technolgies used:</font> National Instruments Labview, National Instruments PXi Digital I/O and Keithley programmable multimeter</li>
+                    </div>
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Analog filter design for a PLL system</h3>
+                      <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
+                        <li> The system was based around a ADF4001 programmable clock generator and MSP430 MCU</li>
+                        <li> Designed LPF, charge-pump and VCO for the system using discrete components</li>
+                        <li> The design specs for the system were from 17.2MHz to 19.2MHz</li>
+                        <li> <font color="#66FF33">Key Technolgies used:</font> Analog filter design, Voltage controll oscillater design, PCB building and RF testing</li>
+                      </div>
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">VLSI design CMOS </h3>
+                      <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
+                        <li> Used Cadence for the logic design with a transister width of 120nm</li>
+                        <li> Designed a BCD decoder using transistor level logic design and compared with behavioral design in Verilog</li>
+                        <li> <font color="#66FF33">Key Technolgies used:</font> Cadence and Verilog</li>
+                      </div>
+
+                  </div>
+
                 </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:none transparent;"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                <div class="carousel-caption" style="padding: 0% 0% 3% 0 ">
+                    <h2>Academic Projects</h2>
                 </div>
-            </div>
+              </div>
+
         </div>
 
 
