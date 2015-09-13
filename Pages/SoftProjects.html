@@ -29,7 +29,6 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
         <!-- Wrapper for Slides -->
@@ -40,35 +39,36 @@
                 <div class="fill" style="background-image:none transparent;">
                   <div >
                     <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">This Website</h3>
+                    <hr width="50%">
                     <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
                       <li> Implemented the Bootstrap Carousel and Fixed Navbar modules along with customized iframe and webpage layout</li>
                       <li> Created iframe controller using JavaScript</li>
                       <li> Implemented ExpressJS server to deploy the website</li>
                       <li> Setting up AWS EC2 instance for deployment </li>
                       <li> Under construction: Webhooks and active service to update website on Master branch push. Grunt automation and unit testing for JavaScript controllers.</li>
-                      <li> <font color="#66FF33">Key Technolgies used:</font> HTML, CSS, Bootstrap, NodeJS, ExpressJS, AWS EC2, Grunt, npm </li>
+                      <li> <font color="#66FF33">Key technologies used:</font> HTML, CSS, Bootstrap, NodeJS, ExpressJS, AWS EC2, Grunt, npm </li>
                     </div>
-                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Functionality Tester</h3>
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">MRI SENSE Reconstruction Mapping</h3>
+                      <hr width="50%">
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
-                        <li> Used an ARM Sitara based development board (Beaglebone Black) and a Spartan3E based FPGA</li>
-                        <li> Designed a functionality tester for simple logic gate ICs with a 2-bit input</li>
-                        <li> The FPGA was used as the moldable test implementation fabric and the BeagleBone used as a Command-line interface tool to execute high level code</li>
-                        <li> <font color="#66FF33">Key Technolgies used:</font> C++ scripts on Angstrom Dist. (Linux) using VI and Verilog HDL on Xilinx ISE Design Tools</li>
+                        <li> Used Matlab image processing toolbox and SENSE MRI module for reconstruction</li>
+                        <li> Designed a algorithm for coil sensitivity mapping based on coil shapes</li>
+                        <li> The custom sensitivity map function provides a flexible way to implement Sinusoidal, Cosine and Saw-tooth functions based on coil geometry and placement</li>
+                        <li> The custom sensitivity map can then be used in the SENSE reconstruction algorithm provide to reconstruction based on the true geometry of the coil</li>
+                        <li> An accurate sensitivity map can provide reduction in the image dataset and can reduce computational times</li>
+                        <li> <font color="#66FF33">Key technologies used:</font> Matlab Image processing toolbox, SENSE, MR-Imaging modalities</li>
                       </div>
-                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Behavioral Modeling 32-bit RISC</h3>
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Image Processing Web Service</h3>
+                      <hr width="50%">
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
-                        <li> Used Xilinx ISE Design tools with an FPGA Emulator</li>
-                        <li> Designed and tested on ModelSim test stand (Built on non-synthesizing code)</li>
-                        <li> Core modules created included a 32-bit x 32-bit memory cell and a 32-bit piplined ALU</li>
-                        <li> The functionality was tested using a 32-bit Multipilcation operation using the add-and-shift method</li>
+                        <li> Used Windows Communication Foundation (WCF) and OpenCV with EMGU C# wrapper</li>
+                        <li> The architecture was based around a WCF service running on the host PC and a simple C# forms app/Web app to consume it</li>
+                        <li> The WCF service was used to host EMGU based OpenCV filter algorithms (FFT, De-noise, Face-recognition. etc)</li>
+                        <li> The web app was run on a IIS express server with a simple forms interface to browse images, send images, select filter and view received images</li>
+                        <li> The images sent through the web app and processed images from the WCF service were stored on a SQL Lite server on the host PC</li>
+                        <li> <font color="#66FF33">Key technologies used:</font> C#, WCF, OpenCV, IIS Express, Windows forms</li>
                       </div>
-                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Servo Controlled Test Rig</h3>
-                      <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
-                        <li> Used an MSP430 Launchpad Microcontroller and a servo motor</li>
-                        <li> Designed and tested a rig to create customized motion for testing a wearable accelerometer based IoT device</li>
-                        <li> The microcontroller board was used to vary the PWM signal to the servo motor</li>
-                        <li> <font color="#66FF33">Key Technolgies used:</font> C++ scripts on Code Composer Studio</li>
-                      </div>
+                      
                   </div>
 
                 </div>
@@ -85,13 +85,6 @@
                 <div class="fill" style="background-image:none transparent;"></div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:none transparent;"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
@@ -114,7 +107,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12" style="padding:0 0 0 40%">
-                    <p>Copyright &copy; sidguru.com 2015</p>
+                    <p>Copyright &copy; siddraj.com 2015</p>
                 </div>
             </div>
             <!-- /.row -->
