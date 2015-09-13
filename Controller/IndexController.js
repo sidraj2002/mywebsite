@@ -8,8 +8,8 @@ var hardware = "/Pages/HardProjects.html";
 if(name == 'software'){
 document.getElementById('IndexFrame').setAttribute('src', software);
 }
-if(name == "resume"){
-  document.getElementById('IndexFrame').setAttribute('src', resume);
+if(name == "contact"){
+  document.getElementById('IndexFrame').setAttribute('src', contact);
 }
 if(name == "internships"){
   document.getElementById('IndexFrame').setAttribute('src', internships);

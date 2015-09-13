@@ -48,27 +48,28 @@
                       <li> Under construction: Webhooks and active service to update website on Master branch push. Grunt automation and unit testing for JavaScript controllers.</li>
                       <li> <font color="#66FF33">Key technologies used:</font> HTML, CSS, Bootstrap, NodeJS, ExpressJS, AWS EC2, Grunt, npm </li>
                     </div>
-                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">MRI SENSE Reconstruction Mapping</h3>
+
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Automation script Couchdb setup</h3>
                       <hr width="50%">
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
-                        <li> Used Matlab image processing toolbox and SENSE MRI module for reconstruction</li>
-                        <li> Designed a algorithm for coil sensitivity mapping based on coil shapes</li>
-                        <li> The custom sensitivity map function provides a flexible way to implement Sinusoidal, Cosine and Saw-tooth functions based on coil geometry and placement</li>
-                        <li> The custom sensitivity map can then be used in the SENSE reconstruction algorithm provide to reconstruction based on the true geometry of the coil</li>
-                        <li> An accurate sensitivity map can provide reduction in the image dataset and can reduce computational times</li>
-                        <li> <font color="#66FF33">Key technologies used:</font> Matlab Image processing toolbox, SENSE, MR-Imaging modalities</li>
+                        <li> In process of creating and optimizing automation tool for installing and configuring Couchdb database in Shell script and ShellJS</li>
+                        <li> Implementation for Debian based systems for a quick installation when configuration management scripts are not available</li>
+                        <li> Please refer to the Github repository for updated commits</li>
+                        <li> Testing and deployment on EC2 Ubuntu instance </li>
+                        <li> <font color="#66FF33">Key technologies used:</font> ShellJS, Shell Script, Ubuntu </li>
                       </div>
-                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Image Processing Web Service</h3>
+
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Automation script for Couchdb management</h3>
                       <hr width="50%">
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
-                        <li> Used Windows Communication Foundation (WCF) and OpenCV with EMGU C# wrapper</li>
-                        <li> The architecture was based around a WCF service running on the host PC and a simple C# forms app/Web app to consume it</li>
-                        <li> The WCF service was used to host EMGU based OpenCV filter algorithms (FFT, De-noise, Face-recognition. etc)</li>
-                        <li> The web app was run on a IIS express server with a simple forms interface to browse images, send images, select filter and view received images</li>
-                        <li> The images sent through the web app and processed images from the WCF service were stored on a SQL Lite server on the host PC</li>
-                        <li> <font color="#66FF33">Key technologies used:</font> C#, WCF, OpenCV, IIS Express, Windows forms</li>
+                        <li> Currently in process of creating a native NodeJS script using HTML module for REST Api</li>
+                        <li> Script is being optimized for Couchdb which natively support REST Api</li>
+                        <li> Purpose of the script is to provide features like replication between specified databases, check status codes, document count, create/delete databases etc.</li>
+                        <li> <font color="#66FF33">Key technologies used:</font> NodeJS, HTML module, REST Api, Couchdb</li>
                       </div>
-                      
+
+
+
                   </div>
 
                 </div>
@@ -82,10 +83,44 @@
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:none transparent;"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
+                <div class="fill" style="background-image:none transparent;">
+
+                <div >
+
+                  <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Networking and server management</h3>
+                  <hr width="50%">
+                  <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
+                    <li> Currently in progress</li>
+                    <li> Network firewall, DHCP and portfording setup</li>
+                    <li> Configuring multiple networks, traffic monitoring and quality of service</li>
+                    <li> Setting up a DMZ network</li>
+                    <li> <font color="#66FF33">Key technologies used:</font> Ubiquiti ER-3Lite router, EdgeOS v1.7.0, Linux CLI</li>
+                  </div>
+                  <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">MRI SENSE Reconstruction Mapping</h3>
+                  <hr width="50%">
+                  <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
+                    <li> Used Matlab image processing toolbox and SENSE MRI module for reconstruction</li>
+                    <li> Designed a algorithm for coil sensitivity mapping based on coil shapes</li>
+                    <li> The custom sensitivity map function provides a flexible way to implement Sinusoidal, Cosine and Saw-tooth functions based on coil geometry and placement</li>
+                    <li> The custom sensitivity map can then be used in the SENSE reconstruction algorithm provide to reconstruction based on the true geometry of the coil</li>
+                    <li> An accurate sensitivity map can provide reduction in the image dataset and can reduce computational times</li>
+                    <li> <font color="#66FF33">Key technologies used:</font> Matlab Image processing toolbox, SENSE, MR-Imaging modalities</li>
+                  </div>
+                    <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Image Processing Web Service</h3>
+                    <hr width="50%">
+                    <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
+                      <li> Used Windows Communication Foundation (WCF) and OpenCV with EMGU C# wrapper</li>
+                      <li> The architecture was based around a WCF service running on the host PC and a simple C# forms app/Web app to consume it</li>
+                      <li> The WCF service was used to host EMGU based OpenCV filter algorithms (FFT, De-noise, Face-recognition. etc)</li>
+                      <li> The web app was run on a IIS express server with a simple forms interface to browse images, send images, select filter and view received images</li>
+                      <li> The images sent through the web app and processed images from the WCF service were stored on a SQL Lite server on the host PC</li>
+                      <li> <font color="#66FF33">Key technologies used:</font> C#, WCF, OpenCV, IIS Express, Windows forms</li>
+                    </div>
+                  </div>
+
+                  <div class="carousel-caption" style="padding: 0% 0% 3% 0 ">
+                      <h2>Academic Projects</h2>
+                  </div>
             </div>
         </div>
 
@@ -106,7 +141,7 @@
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12" style="padding:0 0 0 40%">
+                <div class="col-lg-12" style="padding:0 0 0 40%; ">
                     <p>Copyright &copy; siddraj.com 2015</p>
                 </div>
             </div>
