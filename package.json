@@ -2,7 +2,7 @@
   "name": "myWebsite",
   "version": "1.0.0",
   "description": "Porfolio Website for Sid",
-  "main": "server.js",
+  "main": "server2.js",
   "dependencies": {
     "jshint": "^2.8.0",
     "connect": "^3.4.0",
@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"test\"",
-    "start": "node server.js"
+    "start": "node server2.js"
   },
   "repository": {
     "type": "git",
