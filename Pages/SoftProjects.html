@@ -46,20 +46,20 @@
                       <li> Implemented ExpressJS server to deploy the website</li>
                       <li> Setting up AWS EC2 instance with Ubuntu 14.04 base image for deployment testing</li>
                       <li> Deployment was done using NGiNX server in a reverse proxy configuration</li>
-                      <li> Security measures: Default firewall blocking all incoming traffic except SSH and HTTP, root disabled, default ssh port changed and NGiNX reverse proxy pointing to internal Webserver port</li>
-                      <li> Under construction: Docker Container based deployment for isolated Proxy, webserver instances and an addition of a NoSQL database</li>
-                      <li> Under construction: NGiNX caching for images and CSS styles, NGiNX load balancing with multple webserver instances. </li>
-                      <li> <font color="#66FF33">Key technologies used:</font> HTML, CSS, Bootstrap, NodeJS, ExpressJS, AWS EC2, NGiNX, Ubuntu, npm </li>
+                      <li> Security measures: Transport layer firewall on ports, root access controlled, NGiNX reverse proxy, DDOS mitigation</li>
+                      <li> Under construction: Security: NGiNX caching, access log parsing for IP blacklisting, GeoIP, WAF  </li>
+                      <li> Under construction: Deployment: Docker Container based deployment, multiple backend servers and an addition of a NoSQL database for resume</li>
+                      <li> <font color="#66FF33">Key technologies used:</font> HTML, CSS, Bootstrap, NodeJS, ExpressJS, AWS EC2, NGiNX, Ubuntu, npm, Security scripts</li>
                     </div>
 
-                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Automation script Couchdb setup</h3>
+                      <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Server log parsing script</h3>
                       <hr width="50%">
                       <div style="font-family:sans-serif; font-size:110%; font-weight:normal; text-align:center; line-height:200%; color:DarkOrange; list-style-type: circle;">
-                        <li> In process of creating and optimizing automation tool for installing and configuring Couchdb database in Shell script and ShellJS</li>
-                        <li> Implementation for Debian based systems for a quick installation when configuration management scripts are not available</li>
-                        <li> Please refer to the Github repository for updated commits</li>
-                        <li> Testing and deployment on EC2 Ubuntu instance </li>
-                        <li> <font color="#66FF33">Key technologies used:</font> ShellJS, Shell Script, Ubuntu </li>
+                        <li> In process of creating a ShellJS script to parse NGiNX access logs for detecting possible attacks</li>
+                        <li> Design for parsing logs for top 10 request addresses and checking number of requests every 24 hours</li>
+                        <li> Filter results based on GeoIP and number of requests per minute</li>
+                        <li> Update NGiNX server configuration for blacklisting and stopping all traffic if needed </li>
+                        <li> <font color="#66FF33">Key technologies used:</font> ShellJS, Shell Script, NGiNX, AWK </li>
                       </div>
 
                       <h3 style="font-family:sans-serif; font-size:120%; font-weight:bold; text-align:center; padding: 0% 0% 0% 0; color:#00FFFF;">Automation script for Couchdb management</h3>
