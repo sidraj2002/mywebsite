@@ -1,10 +1,10 @@
 function LoadPages(name){
 var proj = "/Pages/projects.html";
-var resume = "/Pages/srajguru_resume_Jul2015_ee_soft1.pdf";
 var internships = "/Pages/Internships.html";
 var contact = "/Pages/contact.html";
 var software = "/Pages/SoftProjects.html";
 var hardware = "/Pages/HardProjects.html";
+var resume = "/Pages/srajguru_resume_Sept2015_soft1_tx.pdf"
 if(name == 'software'){
 document.getElementById('IndexFrame').setAttribute('src', software);
 }
@@ -16,6 +16,9 @@ if(name == "internships"){
 }
 if(name == "hardware"){
   document.getElementById('IndexFrame').setAttribute('src', hardware);
+}
+if(name == "resume"){
+  document.getElementById('IndexFrame').setAttribute('src', resume);
 }
 
 return true;
