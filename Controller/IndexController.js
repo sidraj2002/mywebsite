@@ -4,7 +4,7 @@ var internships = "/Pages/Internships.html";
 var contact = "/Pages/contact.html";
 var software = "/Pages/SoftProjects.html";
 var hardware = "/Pages/HardProjects.html";
-var resume1 = "/Pages/srajguru_resume_Sept2015_soft2_tx.pdf"
+var resume1 = "/Pages/srajguru_resume_Dec2016_soft3_tx.pdf"
 var resume2 = "/Pages/srajguru_resume_Sept2015_hard2_tx.pdf"
 if(name == 'software'){
 document.getElementById('IndexFrame').setAttribute('src', software);
